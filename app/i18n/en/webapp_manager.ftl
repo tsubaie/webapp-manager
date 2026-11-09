@@ -1,0 +1,39 @@
+app-title = Web Apps
+about = About
+view = View
+file = File
+new-web-app = New Web App
+search = Search web apps
+open = Open
+edit = Edit
+delete = Delete
+cancel = Cancel
+create = Create
+save = Save
+saving = Saving…
+empty-title = No web apps yet
+empty-body = Give a website its own window, icon and place in your app launcher.
+no-results = No web apps match “{ $query }”
+name = Name
+name-placeholder = WhatsApp
+address = Website address
+address-placeholder = web.whatsapp.com
+address-helper = https:// is added for you
+open-with = Open with
+icon = Icon
+choose-image = Choose image…
+use-site-icon = Use site icon
+icon-auto = Downloaded from the site when you save
+icon-chosen = Using the image you chose
+icon-current = A new address downloads a fresh icon
+edit-web-app = Edit Web App
+delete-title = Delete “{ $name }”?
+delete-body = It will be removed from your app launcher. This can’t be undone.
+apps-count = { $count ->
+    [one] 1 web app
+   *[other] { $count } web apps
+}
+name-required = Enter a name
+address-required = Enter the website’s address
+choose-icon-title = Choose an icon
+images = Images

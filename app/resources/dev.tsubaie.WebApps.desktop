@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Web Apps
+Comment=Add, edit and delete web apps
+Exec=webapp-manager
+Icon=web-browser
+Terminal=false
+Categories=Utility;
+Keywords=web;app;pwa;launcher;
+StartupNotify=true

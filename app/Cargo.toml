@@ -1,0 +1,16 @@
+[package]
+name = "webapp-manager"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+i18n-embed = { version = "0.16", features = ["fluent-system", "desktop-requester"] }
+i18n-embed-fl = "0.10"
+open = "5"
+rust-embed = "8"
+tokio = { version = "1", features = ["full"] }
+webapp-core = { version = "0.1.0", path = "../core" }
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic.git"
+features = ["about", "single-instance", "wgpu", "xdg-portal", "tokio"]
