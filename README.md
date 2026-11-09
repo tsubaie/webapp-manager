@@ -4,6 +4,8 @@ A small app for the COSMIC desktop that turns websites into web apps. Each web
 app gets its own launcher in your app menu and opens the site in its own
 browser window, without tabs or an address bar, with the site's icon.
 
+![The Web Apps window listing five web apps, each with Open, Edit and Delete buttons](docs/screenshot.png)
+
 Supported browsers: Google Chrome, Chromium, Brave, Vivaldi and Microsoft
 Edge (anything that understands `--app=<url>`). The app lists the ones it
 finds on your `PATH`.
